@@ -22,3 +22,17 @@ ul {
     list-style: none;
     padding: 0;
 }
+
+.titulo-conteudo {
+    font-size: 1.5rem; /* 1rem = 16px */
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.texto-conteudo {
+    margin: 35px auto;
+    padding: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
