@@ -23,24 +23,27 @@ ul {
     padding: 0;
 }
 
+/* 
 .titulo-conteudo {
     font-size: 1.5rem; /* 1rem = 16px */
-    font-weight: bold;
+/* font-weight: bold;
     margin: 20px 0;
     text-align: center;
 }
 
 .texto-conteudo {
     margin: 1.5rem 0;
-    padding: 1.5rem;
+    padding: 0 2.5rem 0 2.5rem;
     font-size: 1.1rem;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .imagem-conteudo {
     display: block;
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     margin: 20px auto;
     border-radius: 8px;
-}
+} 
+*/
