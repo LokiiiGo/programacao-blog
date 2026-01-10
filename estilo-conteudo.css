@@ -31,8 +31,16 @@ ul {
 }
 
 .texto-conteudo {
-    margin: 35px auto;
+    margin: 1.5rem 0;
     padding: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
+}
+
+.imagem-conteudo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
 }

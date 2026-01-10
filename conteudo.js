@@ -8,10 +8,12 @@ const conteudo = [
         O HTML utiliza tags, também chamadas de elementos HTML, para informar ao navegador que tipo de estrutura está a ser construida. As tags são identificadas por um sinal de menor que (<) seguido
         pelo nome da tag é um sinal de maior que (>).
         <br>
-        Foi criado por Tim Berners-Lee, um físico britânico, a primeira versão foi publicado em 1991. O World Wide Web Consortium (W3C) é reponsável por manter e desenvolver as especificações do HTML.`
+        Foi criado por Tim Berners-Lee, um físico britânico, a primeira versão foi publicado em 1991. O World Wide Web Consortium (W3C) é reponsável por manter e desenvolver as especificações do HTML.`,
+        image: 'image/html.png'
     },
 ]
 
 const containerConteudo = document.getElementById('containerConteudo');
 containerConteudo.innerHTML = `<p class="titulo-conteudo">${conteudo[0].tituloConteudo}</p>`;
 containerConteudo.innerHTML += `<p class="texto-conteudo">${conteudo[0].textoConteudo}</p>`;
+containerConteudo.innerHTML += `<img src="${conteudo[0].image}" alt="HTML" class="imagem-conteudo">`;
