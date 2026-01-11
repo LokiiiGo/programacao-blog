@@ -20,7 +20,7 @@ const posts = [
     { id: "python", texto: "Python - Programação orientada a objetos" }
 ];
 
-const container = document.getElementById('feed-posts');
+const container = document.getElementById('lista-posts');
 
 // Função que gera o HTML automaticamente
 posts.forEach(post => {
