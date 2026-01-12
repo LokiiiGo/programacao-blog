@@ -67,6 +67,75 @@ const posts = [
         <br><br>
         Os navegadores serão capazes de responder a interações do usuário e alterar o layout do conteúdo da página.`,
         image: 'image/js.png',
+    },
+    {
+        id: "python",
+        texto: "Python - Programação orientada a objetos",
+        textoConteudo: `'A Programação Orientada a Objetos (POO) em Python é um paradigma de programação que organiza o código em objetos, que são instâncias de classes. As classes definem as características
+        (atributos) e ações (métodos) que os objetos podem ter. A POO em Python permite criar programas reutilizáveis, fáceis de manter e que modelam melhor a realidade, tornando-a uma opção popular para projetos complexos.`,
+        image: 'image/python.png', 
+    },
+    {
+        id: "java",
+        texto: "Java - A linguagem mais usada no mundo",
+        textoConteudo: `É uma linguagem de programação e plataforma de computação. Foi criado por James Gosling na Sun Microsystems na década de 1990.
+        <br><br>
+        <strong>Características</strong>
+        <br><br>
+        - É uma linguagem orientada a objetos.
+        <br><br>
+        - É multiplataforma, ou seja, pode ser usado em vários sistemas operacionais e dispositivos.
+        <br><br>
+        - Suporta a execução de múltiplas threads.
+        <br><br>
+        <strong>Finalidade</strong>
+        <br><br>
+        - Desenvolvimento de aplicativos móveis e da web
+        <br><br>
+        - Desenvolvimento de software empresarial.
+        <br><br>
+        - Desenvolvimento de dispositivos da Internet das Coisas (IOT).
+        <br><br>
+        - Desenvolvimento de jogos.
+        <br><br>
+        - Desenvlvimento de microdados.
+        <br><br>
+        - Desenvolvimento de aplicações distribuidas e com base na Cloud.
+        <br><br>
+        <strong>Vantagens</strong>
+        <br><br>
+        - É uma escolha popular entre desenvolvedores.
+        <br><br>
+        - É uma linguagem versátil.
+        <br><br>
+        - É uma linguagem transferível, podendo ser usado entre plataformas e dispositivos.
+        <br><br>
+        - É uma linguagem centrada em rede.`,
+        image: 'image/java.png',
+    },
+
+    {
+        id: "php",
+        texto: "Programação PHP",
+        textoConteudo: `PHP é uma linguagem de script do lado do servidor, o que significa que o código PHP é executado no servidor web antes que a página seja enviada para o navegador do usuário.
+        Isso permite que o PHP gere conteúdo dinâmico, interaja com bancos de dados e processe informações antes de exibir a página no navegador.
+        <br><br>
+        PRINCIPAIS CARACTERÍSTICAS SOBRE PHP
+        <br><br>
+        - Uma linguagem de programação que foi desenvolvida para deixar o HTML dinâmico.
+        <br><br>
+        - Liguagem de script e open-source.
+        <br><br>
+        - Os programas são executados em server side (lado do servidor; Back-end).
+        <br><br>
+        - PHP significa Personal Home Page e HyperText Preprocessor.
+        <br><br>
+        - O criador da linguagem foi Rasmus Lendorf.
+        <br><br>
+        - O ano de lançamento foi em 1994.
+        <br><br>
+        - Aproximadamente 80% dos websites utilizam PHP.`,
+        image: 'image/PHP.png',
     }
 ];
 
