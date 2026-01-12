@@ -71,7 +71,7 @@ const posts = [
     {
         id: "python",
         texto: "Python - Programação orientada a objetos",
-        textoConteudo: `'A Programação Orientada a Objetos (POO) em Python é um paradigma de programação que organiza o código em objetos, que são instâncias de classes. As classes definem as características
+        textoConteudo: `A Programação Orientada a Objetos (POO) em Python é um paradigma de programação que organiza o código em objetos, que são instâncias de classes. As classes definem as características
         (atributos) e ações (métodos) que os objetos podem ter. A POO em Python permite criar programas reutilizáveis, fáceis de manter e que modelam melhor a realidade, tornando-a uma opção popular para projetos complexos.`,
         image: 'image/python.png', 
     },
@@ -136,7 +136,43 @@ const posts = [
         <br><br>
         - Aproximadamente 80% dos websites utilizam PHP.`,
         image: 'image/PHP.png',
-    }
+    },
+    {
+        id: "bootstrap",
+        texto: "Bootstrap - Framework front-end",
+        textoConteudo: `Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. 
+        Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma.`,
+        image: 'image/bootstrap5.png',
+    },
+    {
+        id: "tailwind",
+        texto: "TailwindCSS - Framework CSS",
+        textoConteudo: ` Tailwind CSS é um framework utilitário que permite criar designs personalizados diretamente no HTML, 
+        utilizando classes pré-definidas para estilização rápida e eficiente. 
+        <br>
+        Ele promove a criação de interfaces responsivas e modernas, facilitando o desenvolvimento front-end.`,
+        image: 'image/tailwindcss.png',
+    },
+    {
+        id: "arduino",
+        texto: "Arduino - Construindo hardware",
+        textoConteudo: `Arduino é uma plataforma de prototipagem eletrônica de código aberto baseada em hardware e software fáceis de usar.
+        <br><br>
+        É composta por uma placa de circuito com um microcontrolador programável e um ambiente de desenvolvimento integrado (IDE) que permite escrever e carregar código na placa.
+        <br><br>
+        O Arduino é amplamente utilizado por hobbyistas, educadores e profissionais para criar projetos interativos, como robótica, automação residencial e muito mais.`,
+        image: 'image/arduino.jpg',
+    },
+    {
+        id: "c",
+        texto: "C - A linguagem mais antiga",
+        textoConteudo: `C é uma linguagem de programação de propósito geral desenvolvida por Dennis Ritchie na Bell Labs na década de 1970.
+        <br>
+        É conhecida por sua eficiência, portabilidade e capacidade de manipular diretamente o hardware do computador.
+        <br>
+        C é amplamente utilizada no desenvolvimento de sistemas operacionais, software embarcado (arduino/c++) e aplicativos de alto desempenho.`,
+        image: 'image/c.png',
+    },
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
