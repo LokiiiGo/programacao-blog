@@ -173,6 +173,29 @@ const posts = [
         C é amplamente utilizada no desenvolvimento de sistemas operacionais, software embarcado (arduino/c++) e aplicativos de alto desempenho.`,
         image: 'image/c.png',
     },
+    {
+        id: "mysql",
+        texto: "MySQL - Banco de dados relacional",
+        textoConteudo: `É um sistema de gerenciador de banco de dados relacional de código aberto usado na maioria das aplicações gratuitas
+        para gerir suas bases de dados. O serviço utiliza a linguagem SQL (Structure Query Language) traduzido para Linguagem de Consulta Estruturada, que
+        é uma linguagem mais popular pra inserir, acessar e gerenciar o conteúdo armazenado num banco de dados.
+        <br><br>
+        O MySQL é usado em uma ampla variedade de aplicações como:
+        <br><br>
+        - Sites de comércios eletrônicos.
+        <br><br>
+        - Mídias sociais.
+        <br><br>
+        - Apps como: Drupal, Joomia, Magento e WordPress.
+        <br><br>
+        - Pilha de aplicativos da web Linux-Apache-MySQL-PHP/Perl/Python.
+        <br><br>
+        - Facebook, X (atual Twitter), Netflix, Uber, Shopify e Booking.com
+        <br><br>
+        Funciona em um modelo cliente-servidor, onde os dados ficam armazenados no servidor e os clientes fazem solicitações para acessá-los.
+        Os clientes podem fazer solicitações atravéz de uma Interface Gráfica do Usuário (IGU) em suas telas.`,
+        image: 'image/mysql.png'
+    }
 ];
 
 const urlParams = new URLSearchParams(window.location.search);
