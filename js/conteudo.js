@@ -34,6 +34,40 @@ const posts = [
         - Facilitar a manutenção e a consistência visual em páginas web.`,
         image: 'image/css.jpg',
     },
+    {
+        id: "js",
+        texto: "JavaScript - A interatividade no website",
+        textoConteudo: `É uma liguagem de programação que permite criar páginas web interativas, melhorar a experiência do usuário e implementar itens complexos.
+        <br><br>
+        - Atualizar feeds de mídia social.
+        <br><br>
+        - Exibir animações e mapas interativas.
+        <br><br>
+        - Mudar dinamicamente as cores de elementos de uma página web.
+        <br><br>
+        - Criar jogos.
+        <br><br>
+        - Criar gráficos 2D e 3D animados.
+        <br><br>
+        - Criar aplicativos abrangentes baseados em banco de dados.
+        <br><br>
+        O JavaScript é uma das tecnologias principais da World Wide Web, é amplamente utilizado em diferentes áreas.
+        <br><br>
+        - Desenvolvimento Web.
+        <br><br>
+        - Desenvolvimento Front-End.
+        <br><br>
+        - Aplicativos móveis.
+        <br><br>
+        - Desenvolvimento de Jogos.
+        <br><br>
+        - Internet das Coisas (IOT).
+        <br><br>
+        - Serverless e computação em nuvem.
+        <br><br>
+        Os navegadores serão capazes de responder a interações do usuário e alterar o layout do conteúdo da página.`,
+        image: 'image/js.png',
+    }
 ];
 
 const urlParams = new URLSearchParams(window.location.search);

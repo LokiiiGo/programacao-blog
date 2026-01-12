@@ -24,6 +24,7 @@ header {
     font-size: 1rem;
     margin: 0 15px;
     transition: color 0.3s;
+    text-transform: uppercase;
 }
 
 .nav-header a:hover {
