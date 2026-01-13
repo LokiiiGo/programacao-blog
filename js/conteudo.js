@@ -1,7 +1,7 @@
 const posts = [
     {
         id: "html",
-        texto: "HTML - A Estrutura Esqueleto de um Website",
+        texto: "HTML - A estrutura esqueleto de um website",
         textoConteudo: `É uma linguagem de computador que define a estrutura e o significado de conteúdo da web. É o bloco de construção mais basica de um website
         e é utilizado para estruturar paginas web e o seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, numa lista com marcadores ou usando imagens e tabelas.
         <br>
@@ -13,7 +13,7 @@ const posts = [
     },
     {
         id: "css",
-        texto: "CSS - A Estilização de um Website",
+        texto: "CSS - A estilização de um website",
         textoConteudo: `É a sigla para Cascading Style Sheets, que em português signfica Folhas de Estilo em Cascata. É uma linguagem de marcação que define como os dados são apresentados
         no navegador, controlando aspectos como:
         <br><br>
@@ -138,6 +138,13 @@ const posts = [
         image: 'image/PHP.png',
     },
     {
+        id: "logica",
+        texto: "Lógica de Programação - O fundamento básico",
+        textoConteudo: `A lógica de programação é o conjunto de regras e técnicas que os programadores utilizam para projetar e desenvolver programas de computador.
+        É a habilidade de pensar de forma lógica e estruturada, decompondo um problema complexo em etapas mais simples.`,
+        image: 'image/LogicaProgramacao.jpg',
+    },
+    {
         id: "bootstrap",
         texto: "Bootstrap - Framework front-end",
         textoConteudo: `Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. 
@@ -193,8 +200,119 @@ const posts = [
         - Facebook, X (atual Twitter), Netflix, Uber, Shopify e Booking.com
         <br><br>
         Funciona em um modelo cliente-servidor, onde os dados ficam armazenados no servidor e os clientes fazem solicitações para acessá-los.
-        Os clientes podem fazer solicitações atravéz de uma Interface Gráfica do Usuário (IGU) em suas telas.`,
-        image: 'image/mysql.png'
+        Os clientes podem fazer solicitações através de uma Interface Gráfica do Usuário (IGU) em suas telas.`,
+        image: 'image/mysql.png',
+    },
+    {
+        id: "github",
+        texto: "Github - Rede social de programador",
+        textoConteudo: `Uma plataforma de desenvolvimento colaborativo que aloja projetor na nuvem utilizando o sistemas de controle de versões chamado <strong>Git</strong>.
+        O github ajuda os desenvolvedores a armazenar e administrar o código e fazer o registro de mudança.
+        Geralmente, é de código-aberto, o que permite realizar projetos compartilhados e manter o acompanhamento detalhado do usuário.
+        <br>
+        Também funciona como uma rede social, conectando os desenvolvedores com os usuários. Como usuário, podem descarregar programas ou aplicativos, e da mesma maneira, colaborar com o
+        desenvolvimento oferecendo melhorias e discutindo as questões que interessam nos foruns temáticos.`,
+        image: 'image/git-github.jpg',
+    },
+    {
+        id: "xampp",
+        texto: "Xampp - Software do Apache Friends",
+        textoConteudo: `É uma distribuição de software gratuito e de código aberto que contém o Apache, MySQL, PHP e Perl. A sigla XAMPP é uma referencias a esses quatro ferrasmentas, sendo que o X inicial indica que uma ferramenta é multiplataforma,
+        ou seja, funciona em Windows, Linux e MAC.
+        <br>
+        Foi desenvolvido pela Apache Friends, uma organização sem fins lucrativos , é considierado o ambiente de desenvolvimento PHP mais popular.
+        Foi criado para ser uma ferramenta de desenvolvimento que permitisse ao programadores de websites testar o seu trabalho sem a necessidade de acesso a internet. No entanto, atualmente,
+        o XAMPP é também utilizado para servir websites WWW.
+        <br><br>
+        - Possui um painel de controle que permite iniciar ou parar servidores individuais.`,
+        image: 'image/xampp.png',
+    },
+    {
+        id: "laravel",
+        texto: "Laravel - Framework PHP",
+        textoConteudo: `O Laravel é um framework PHP de código aberto que oferece uma estrutura robusta para desenvolver aplicações web modernas.
+        Ele utiliza o padrão MVC (Model-View-Controller) e oferece recursos como ORM, migrações de banco de dados, testes automatizados e entre outros.
+        O Laravel é amplamente utilizado por desenvolvedores para criar aplicações escaláveis e seguras.`,
+        image: 'image/laravel.png',
+    },
+    {
+        id: "react",
+        texto: "React - Biblioteca JavaScript",
+        textoConteudo: `É uma biblioteca JavaScript criada pelo Facebook (atual Meta) para criar interface de usuário (UI) em aplicativos Web
+        <br><br>
+        - É uma ferramenta ideal para desenvolvimento front-end.
+        <br><br>
+        - Permite adotar estruturas do HTML e JS em um só código.
+        <br><br>
+        - É baseado em componentes, o que permite criar UIs complexas.
+        <br><br>
+        - A lógica do componente é escrita em JavaScript e não em template.
+        <br><br>
+        - Pode ser usado para criar aplicações móveis, atravéz do React Native.
+        <br><br>
+        Algumas vantagens do React incluem:
+        <br><br>
+        - Permitir criar interface de usuário que pode ser encontrada e acessa em diversos motores de busca.
+        <br><br>
+        - Melhora o processamento de aplicação, o que pode melhorar os resultados do SEOs.
+        <br><br>
+        - Torna o código mais preditivo, mais simples de entender e fácil de depurar.`,
+        image: 'image/react.png',
+    },
+    {
+        id: "portugol",
+        texto: "Portugol - A linguagem brasileira",
+        textoConteudo: `É uma linguagem de programação didática que usa a lingua portuguesa como base para facilitar o aprendizadoda lógica de programação.
+        <br><br>
+        - É uma pseudolinguagem que permite a implementação de algoritmos em português de forma simples e intuitiva.
+        <br><br>
+        - A sintaxe é similar ao português, o que facilita o entendimento dos conceitos complexos.
+        <br><br>
+        - É uma ferramenta educacional, idealizada para quem está começando a aprender programação.
+        <br><br>
+        O nome Portugol é uma sigla que vem de "pseudo-código em português" e é uma junção das palavras Português, Algol e Pascal.
+        <br><br>
+        Foi criado pelos professores Antonio Carlos Nicolodi e Antonio Mannso, com o objetivo de ensinar programação sem que uma estrutura de uma linguagem passa-se sobre os iniciantes`,
+        image: 'image/portugolIDE1.png',
+    },
+    {
+        id: "vscode",
+        texto: "Visual Studio Code - Editor de código fonte",
+        textoConteudo: `O VSCode é um editor de código-fonte gratuito, de código aberto e multiplataforma desenvolvido pela Microsoft.
+        <br><br>
+        - É compatível com Windows, Linux e MAC.
+        <br><br>
+        - Suporta várias linguagens como JavaScript, PHP, C, C++, JAVA, TypeScript, Python, etc.
+        <br><br>
+        - É personalizável, permitindo alterar a aparência, teclas de atalho e preferências.
+        <br><br>
+        - É uma ferramenta de código-aberto, o que permite que a comunidade a melhore constantemente.
+        <br><br>
+        O VSCode é uma das ferramentas mais populares entre programadores e desenvolvedores. A sua popularidade deve-se a vários fatores, como a possibilidade
+        de personalização e o fato de ser gratuito.
+        <br><br>
+        <a href="https://code.visualstudio.com/">Para instalação do VSCode, clique aqui</a>`,
+        image: 'image/vscode.png',
+    },
+    {
+        id: "framework",
+        texto: "O que é <strong>Framework</strong>",
+        textoConteudo: `É uma estrutura que fornece ferramentas e componentes para a construção de projetos e pode ser aplicado em programação.
+        <br><br>
+        - <strong>Framework em programação: </strong>é um conjunto de bibliotecas, estruturas e classes que podem ser reutilizados para desenvolver aplicações.
+        <br><br>
+        - Define a estrutura do projeto e fornece as ferramentas necessárias para a construção.
+        <br><br>
+        - Permite que os desenvolvedores se concentrem nas partes únicas do projeto.
+        <br><br>
+        - Economiza tempo e evita a repetição de códigos comuns.
+        <br><br>
+        - <strong>Framework em outras áreas: </strong>Pode ser usado para solucionar problemas de forma mais eficiente, otimizar recursos e detectar erros.
+        <br><br>
+        - Pode ser usado para garantir qualidade no projeto e produtividade.
+        <br><br>
+        - Pode ser usado para criar e executar aplicações de software.`,
+        image: 'image/framework.png',
     }
 ];
 

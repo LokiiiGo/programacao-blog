@@ -1,7 +1,7 @@
 const posts = [
-    { id: "html", texto: "HTML - A Estrutura Esqueleto de um Website" },
-    { id: "css", texto: "CSS - A Estilização de um Website" },
-    { id: "js", texto: "JavaScript - A Interatividade no Website" },
+    { id: "html", texto: "HTML - A estrutura esqueleto de um website" },
+    { id: "css", texto: "CSS - A estilização de um website" },
+    { id: "js", texto: "JavaScript - A interatividade no website" },
     { id: "python", texto: "Python - Programação orientada a objetos" },
     { id: "java", texto: "Java - A linguagem mais usada no mundo" },
     { id: "mysql", texto: "MySQL - Banco de Dados Relacional" },
@@ -12,12 +12,12 @@ const posts = [
     { id: "arduino", texto: "Arduino - Construindo Hardware" },
     { id: "c", texto: "C - A linguagem mais antiga" },
     { id: "github", texto: "GitHub - Rede Social de Programador" },
-    { id: "xampp", texto: "O que é XAMPP?" },
-    { id: "laravel", texto: "Laravel - Framework Back-end" },
-    { id: "react", texto: "React - Framework Front-end" },
+    { id: "xampp", texto: "Xampp - Software do Apache Friends" },
+    { id: "laravel", texto: "Laravel - Framework PHP" },
+    { id: "react", texto: "React - Biblioteca JavaScript" },
     { id: "portugol", texto: "Portugol - A linguagem brasileira" },
-    { id: "vscode", texto: "VS Code" },
-    { id: "framework", texto: "O que é Framework" },
+    { id: "vscode", texto: "VS Code - Editor de código fonte" },
+    { id: "framework", texto: "O que é Framework?" },
 ];
 
 const container = document.getElementById('lista-posts');
