@@ -22,10 +22,9 @@ const posts = [
 
 const container = document.getElementById('lista-posts');
 
-// Função que gera o HTML automaticamente
 posts.forEach(post => {
     const link = document.createElement('a');
-    link.href = `index-1.html?topico=${post.id}`; // Exemplo de como passar parâmetro
+    link.href = `index-1.html?topico=${post.id}`; // parâmetro
     link.innerHTML = `<p class="post-titulo">${post.texto}</p>`;
     container.appendChild(link);
 });
