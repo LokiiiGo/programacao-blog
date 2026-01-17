@@ -296,7 +296,7 @@ const posts = [
     },
     {
         id: "framework",
-        texto: "O que é <strong>Framework</strong>",
+        texto: "O que é Framework?",
         textoConteudo: `É uma estrutura que fornece ferramentas e componentes para a construção de projetos e pode ser aplicado em programação.
         <br><br>
         - <strong>Framework em programação: </strong>é um conjunto de bibliotecas, estruturas e classes que podem ser reutilizados para desenvolver aplicações.
