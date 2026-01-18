@@ -28,7 +28,7 @@ header {
 }
 
 .nav-header a:hover {
-    color: #007bff;
+    color: #737373;
 }
 
 ul {
@@ -73,7 +73,7 @@ ul {
 .lista-posts a:hover {
     background-color: #f8f9fa;
     transform: translateX(5px);
-    color: #007bff;
+    color: #232323;
 }
 
 .post-titulo {
