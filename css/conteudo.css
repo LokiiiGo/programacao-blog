@@ -24,6 +24,15 @@ ul {
     padding: 0;
 }
 
+footer {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #232323;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
 /* 
 .titulo-conteudo {
     font-size: 1.5rem; /* 1rem = 16px */
