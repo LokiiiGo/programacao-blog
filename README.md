@@ -12,6 +12,6 @@ Uma plataforma focada em ensinar conceitos básicos de programação para inicia
 
 <div align="center">
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 <img src="https://skillicons.dev/icons?i=html,css,js,tailwindcss" />
