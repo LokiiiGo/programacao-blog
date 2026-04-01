@@ -6,9 +6,9 @@
 
 ## Descrição
 
-</div>
-
 Uma plataforma focada em ensinar conceitos básicos de programação para iniciantes.
+
+</div>
 
 <div align="center">
 
