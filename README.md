@@ -1,7 +1,17 @@
+<div align="center">
+
 # Blog de Programação
 
 <img src="./image/background-blog.png">
 
 ## Descrição
 
-Um site educativo de blog onde usuários iniciantes podem aprender sobre Linguagens de Programação e Lógica de Programação de forma prática e acessível.
+</div>
+
+Uma plataforma focada em ensinar conceitos básicos de programação para iniciantes.
+
+<div align="center">
+
+## Tecnologias Utilizadas
+
+<img src="https://skillicons.dev/icons?i=html,css,js,tailwindcss" />

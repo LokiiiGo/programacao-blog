@@ -36,7 +36,6 @@ ul {
     padding: 0;
 }
 
-/* Main Content */
 .container-blog {
     max-width: 800px;
     margin: 40px auto;
@@ -59,7 +58,6 @@ ul {
     font-style: italic;
 }
 
-/* Estilização dos Links de Posts */
 .lista-posts a {
     display: block;
     text-decoration: none;
