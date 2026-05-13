@@ -9,7 +9,7 @@ const posts = [
         pelo nome da tag é um sinal de maior que (>).
         <br>
         Foi criado por Tim Berners-Lee, um físico britânico, a primeira versão foi publicado em 1991. O World Wide Web Consortium (W3C) é reponsável por manter e desenvolver as especificações do HTML.`,
-        image: 'image/html.png',
+        image: 'images/html.png',
     },
     {
         id: "css",
@@ -32,7 +32,7 @@ const posts = [
         - Separar o conteúdo estrutural do documento da sua apresentação.
         <br><br>
         - Facilitar a manutenção e a consistência visual em páginas web.`,
-        image: 'image/css.jpg',
+        image: 'images/css.jpg',
     },
     {
         id: "js",
@@ -66,14 +66,14 @@ const posts = [
         - Serverless e computação em nuvem.
         <br><br>
         Os navegadores serão capazes de responder a interações do usuário e alterar o layout do conteúdo da página.`,
-        image: 'image/js.png',
+        image: 'images/js.png',
     },
     {
         id: "python",
         texto: "Python - Programação orientada a objetos",
         textoConteudo: `A Programação Orientada a Objetos (POO) em Python é um paradigma de programação que organiza o código em objetos, que são instâncias de classes. As classes definem as características
         (atributos) e ações (métodos) que os objetos podem ter. A POO em Python permite criar programas reutilizáveis, fáceis de manter e que modelam melhor a realidade, tornando-a uma opção popular para projetos complexos.`,
-        image: 'image/python.png',
+        image: 'images/python.png',
     },
     {
         id: "java",
@@ -111,7 +111,7 @@ const posts = [
         - É uma linguagem transferível, podendo ser usado entre plataformas e dispositivos.
         <br><br>
         - É uma linguagem centrada em rede.`,
-        image: 'image/java.png',
+        image: 'images/java.png',
     },
 
     {
@@ -135,21 +135,21 @@ const posts = [
         - O ano de lançamento foi em 1994.
         <br><br>
         - Aproximadamente 80% dos websites utilizam PHP.`,
-        image: 'image/PHP.png',
+        image: 'images/PHP.png',
     },
     {
         id: "logica",
         texto: "Lógica de Programação - O fundamento básico",
         textoConteudo: `A lógica de programação é o conjunto de regras e técnicas que os programadores utilizam para projetar e desenvolver programas de computador.
         É a habilidade de pensar de forma lógica e estruturada, decompondo um problema complexo em etapas mais simples.`,
-        image: 'image/LogicaProgramacao.jpg',
+        image: 'images/LogicaProgramacao.jpg',
     },
     {
         id: "bootstrap",
         texto: "Bootstrap - Framework front-end",
         textoConteudo: `Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. 
         Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma.`,
-        image: 'image/bootstrap5.png',
+        image: 'images/bootstrap5.png',
     },
     {
         id: "tailwind",
@@ -158,7 +158,7 @@ const posts = [
         utilizando classes pré-definidas para estilização rápida e eficiente. 
         <br>
         Ele promove a criação de interfaces responsivas e modernas, facilitando o desenvolvimento front-end.`,
-        image: 'image/tailwindcss.png',
+        image: 'images/tailwindcss.png',
     },
     {
         id: "arduino",
@@ -168,7 +168,7 @@ const posts = [
         É composta por uma placa de circuito com um microcontrolador programável e um ambiente de desenvolvimento integrado (IDE) que permite escrever e carregar código na placa.
         <br><br>
         O Arduino é amplamente utilizado por hobbyistas, educadores e profissionais para criar projetos interativos, como robótica, automação residencial e muito mais.`,
-        image: 'image/arduino.jpg',
+        image: 'images/arduino.jpg',
     },
     {
         id: "c",
@@ -178,7 +178,7 @@ const posts = [
         É conhecida por sua eficiência, portabilidade e capacidade de manipular diretamente o hardware do computador.
         <br>
         C é amplamente utilizada no desenvolvimento de sistemas operacionais, software embarcado (arduino/c++) e aplicativos de alto desempenho.`,
-        image: 'image/c.png',
+        image: 'images/c.png',
     },
     {
         id: "mysql",
@@ -201,7 +201,7 @@ const posts = [
         <br><br>
         Funciona em um modelo cliente-servidor, onde os dados ficam armazenados no servidor e os clientes fazem solicitações para acessá-los.
         Os clientes podem fazer solicitações através de uma Interface Gráfica do Usuário (IGU) em suas telas.`,
-        image: 'image/mysql.png',
+        image: 'images/mysql.png',
     },
     {
         id: "github",
@@ -212,7 +212,7 @@ const posts = [
         <br>
         Também funciona como uma rede social, conectando os desenvolvedores com os usuários. Como usuário, podem descarregar programas ou aplicativos, e da mesma maneira, colaborar com o
         desenvolvimento oferecendo melhorias e discutindo as questões que interessam nos foruns temáticos.`,
-        image: 'image/git-github.jpg',
+        image: 'images/git-github.jpg',
     },
     {
         id: "xampp",
@@ -225,7 +225,7 @@ const posts = [
         o XAMPP é também utilizado para servir websites WWW.
         <br><br>
         - Possui um painel de controle que permite iniciar ou parar servidores individuais.`,
-        image: 'image/xampp.png',
+        image: 'images/xampp.png',
     },
     {
         id: "laravel",
@@ -233,7 +233,7 @@ const posts = [
         textoConteudo: `O Laravel é um framework PHP de código aberto que oferece uma estrutura robusta para desenvolver aplicações web modernas.
         Ele utiliza o padrão MVC (Model-View-Controller) e oferece recursos como ORM, migrações de banco de dados, testes automatizados e entre outros.
         O Laravel é amplamente utilizado por desenvolvedores para criar aplicações escaláveis e seguras.`,
-        image: 'image/laravel.png',
+        image: 'images/laravel.png',
     },
     {
         id: "react",
@@ -257,7 +257,7 @@ const posts = [
         - Melhora o processamento de aplicação, o que pode melhorar os resultados do SEOs.
         <br><br>
         - Torna o código mais preditivo, mais simples de entender e fácil de depurar.`,
-        image: 'image/react.png',
+        image: 'images/react.png',
     },
     {
         id: "portugol",
@@ -273,7 +273,7 @@ const posts = [
         O nome Portugol é uma sigla que vem de "pseudo-código em português" e é uma junção das palavras Português, Algol e Pascal.
         <br><br>
         Foi criado pelos professores Antonio Carlos Nicolodi e Antonio Mannso, com o objetivo de ensinar programação sem que uma estrutura de uma linguagem passa-se sobre os iniciantes`,
-        image: 'image/portugolIDE1.png',
+        image: 'images/portugolIDE1.png',
     },
     {
         id: "vscode",
@@ -292,7 +292,7 @@ const posts = [
         de personalização e o fato de ser gratuito.
         <br><br>
         <a href="https://code.visualstudio.com/">Para instalação do VSCode, clique aqui</a>`,
-        image: 'image/vscode.png',
+        image: 'images/vscode.png',
     },
     {
         id: "framework",
@@ -312,7 +312,7 @@ const posts = [
         - Pode ser usado para garantir qualidade no projeto e produtividade.
         <br><br>
         - Pode ser usado para criar e executar aplicações de software.`,
-        image: 'image/framework.png',
+        image: 'images/framework.png',
     }
 ];
 
