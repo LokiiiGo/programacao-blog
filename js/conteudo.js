@@ -73,7 +73,7 @@ const posts = [
         texto: "Python - Programação orientada a objetos",
         textoConteudo: `A Programação Orientada a Objetos (POO) em Python é um paradigma de programação que organiza o código em objetos, que são instâncias de classes. As classes definem as características
         (atributos) e ações (métodos) que os objetos podem ter. A POO em Python permite criar programas reutilizáveis, fáceis de manter e que modelam melhor a realidade, tornando-a uma opção popular para projetos complexos.`,
-        image: 'image/python.png', 
+        image: 'image/python.png',
     },
     {
         id: "java",

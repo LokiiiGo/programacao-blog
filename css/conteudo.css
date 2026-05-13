@@ -9,7 +9,7 @@ header {
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -25,7 +25,7 @@ header {
 }
 
 .nav-header a:hover {
-    color: #737373;
+    color: #303030;
 }
 
 ul {
@@ -36,7 +36,7 @@ ul {
 footer {
     margin-top: 2rem;
     padding: 2rem;
-    background-color: #232323;
+    background-color: #181818;
     text-align: center;
     color: white;
     font-size: 18px;
