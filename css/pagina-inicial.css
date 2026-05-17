@@ -19,7 +19,7 @@ body {
 
 /* Cabeçalho do arquivo index.html */
 header {
-    background-color: #1e1e1e;
+    background: #1e1e1e;
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -95,7 +95,7 @@ ul {
 footer {
     margin-top: 10px;
     padding: 2rem;
-    background-color: #232323;
+    background: #1e1e1e;
     text-align: center;
     color: white;
     font-size: 18px;
