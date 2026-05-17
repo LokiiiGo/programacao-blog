@@ -14,11 +14,10 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background: #f4f4f9;
 }
 
+/* Cabeçalho do arquivo index.html */
 header {
     background-color: #1e1e1e;
     padding: 1rem;
@@ -34,17 +33,20 @@ header {
     margin: 0 15px;
     transition: color 0.3s;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .nav-header a:hover {
     color: #737373;
 }
 
+/* link de cada post */
 ul {
     list-style: none;
     padding: 0;
 }
 
+/* cria uma seção para todos os posts */
 .container-blog {
     max-width: 800px;
     margin: 40px auto;
@@ -89,6 +91,7 @@ ul {
     margin: 0;
 }
 
+/* Rodapé do arquivo index.html */
 footer {
     margin-top: 10px;
     padding: 2rem;
@@ -98,6 +101,7 @@ footer {
     font-size: 18px;
 }
 
+/* Media query para responsividade */
 @media (max-width: 600px) {
     .titulo-principal {
         font-size: 1.8rem;

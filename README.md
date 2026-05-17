@@ -2,7 +2,7 @@
 
 # Blog de Programação
 
-<img src="./image/background-blog.png">
+<img src="./images/background-blog.png">
 
 ## Descrição
 

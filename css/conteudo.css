@@ -1,11 +1,3 @@
-header {
-    background-color: #1e1e1e;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -15,6 +7,19 @@ header {
     "wdth" 100;
 }
 
+body {
+    background: #f4f4f9;
+}
+
+/* Cabeçalho da página index-1.html */
+header {
+    background: #1e1e1e;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .nav-header a {
     color: white;
     text-decoration: none;
@@ -22,6 +27,7 @@ header {
     margin: 0 15px;
     transition: color 0.3s;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .nav-header a:hover {
@@ -33,6 +39,7 @@ ul {
     padding: 0;
 }
 
+/* Rodapé da página index-1.html */
 footer {
     margin-top: 2rem;
     padding: 2rem;
