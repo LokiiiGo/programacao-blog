@@ -1,25 +1,33 @@
+:root {
+    --cor-cabecalho: #121212;
+    --cor-fundo: #f4f4f9;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 body {
-    background: #f4f4f9;
+    background: var(--cor-fundo);
+}
+
+header,
+footer {
+    background: var(--cor-cabecalho);
 }
 
 /* Cabeçalho do arquivo index.html */
 header {
-    background: #1e1e1e;
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -72,7 +80,7 @@ ul {
 .lista-posts a {
     display: block;
     text-decoration: none;
-    color: #2c3e50;
+    color: #1a2c3d;
     padding: 15px;
     border-bottom: 1px solid #eee;
     transition: background 0.2s, transform 0.2s;
@@ -95,7 +103,6 @@ ul {
 footer {
     margin-top: 10px;
     padding: 2rem;
-    background: #1e1e1e;
     text-align: center;
     color: white;
     font-size: 18px;
