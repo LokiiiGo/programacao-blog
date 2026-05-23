@@ -1,4 +1,4 @@
-## Documentação de Projeto (Entrega Freelance)
+## Blog de Programação
 
 ### 1. Visão geral
 Este projeto foi desenvolvido como um **blog educativo** com foco em iniciantes, reunindo conteúdos introdutórios de programação em um formato simples de navegar.
