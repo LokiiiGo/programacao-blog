@@ -38,7 +38,7 @@ header {
     transition: color 0.3s;
     text-transform: uppercase;
     font-weight: bold;
-}
+} 
 
 .nav-header a:hover {
     color: var(--cor-link-cabecalho);
