@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como um **blog educativo** com foco em iniciantes,
 A aplicação é **100% front-end**, operando com páginas HTML e carregamento de conteúdo via JavaScript, sem necessidade de back-end.
 
 ### 2. Objetivo
-- Facilitar o aprendizado de conceitos fundamentais (ex.: HTML, CSS, JavaScript, lógica de programação, bancos de dados e ferramentas comuns).
+- Facilitar o aprendizado de conceitos fundamentais (ex.: HTML, CSS, JavaScript e lógica de programação).
 - Oferecer uma experiência direta: selecionar um tópico na home e visualizar o conteúdo detalhado na página de detalhes.
 
 ### 3. Escopo do trabalho (o que foi entregue)
