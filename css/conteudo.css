@@ -1,6 +1,8 @@
 :root {
     --cor-cabecalho: #121212;
     --cor-fundo: #f4f4f9;
+    --cor-letra: #fff;
+    --cor-link-cabecalho: #303030;
 }
 
 .open-sans {
@@ -18,7 +20,6 @@ body {
 header,
 footer {
     background: var(--cor-cabecalho);
-
 }
 
 /* Cabeçalho da página index-1.html */
@@ -30,7 +31,7 @@ header {
 }
 
 .nav-header a {
-    color: white;
+    color: var(--cor-letra);
     text-decoration: none;
     font-size: 1rem;
     margin: 0 15px;
@@ -40,7 +41,7 @@ header {
 }
 
 .nav-header a:hover {
-    color: #303030;
+    color: var(--cor-link-cabecalho);
 }
 
 ul {
@@ -53,6 +54,6 @@ footer {
     margin-top: 2rem;
     padding: 2rem;
     text-align: center;
-    color: white;
+    color: var(--cor-letra);
     font-size: 18px;
 }
