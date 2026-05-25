@@ -86,9 +86,8 @@ Como o projeto é front-end puro, você pode executá-lo de forma simples:
 - **Google Fonts** para Open Sans
 - Imagens locais em `images/`
 
-### 10. Observações e próximos passos (opcional)
+### 10. Observações e próximos passos
 - Melhorar SEO (tags `meta`, headings consistentes e URLs amigáveis).
 - Separar dados de conteúdo para facilitar manutenção (ex.: JSON externo).
 - Expandir o layout com categorias, busca e paginação.
 - Adicionar testes visuais (responsividade) e validação do conteúdo.
-
