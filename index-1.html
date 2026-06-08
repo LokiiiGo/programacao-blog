@@ -2,46 +2,47 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Programação</title>
-    <link rel="icon" type="image/icon" href="images/blog.png">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/conteudo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post - Blog de Programacao</title>
+  <meta name="description" content="Leia o conteúdo completo do tópico selecionado no Blog de Programação." />
+  <link rel="icon" type="image/png" href="images/blog.png" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body { font-family: "Open Sans", sans-serif; }
+  </style>
 </head>
 
-<body class="open-sans"> 
-    <header>
-        <nav>
-            <ul class="flex justify-center m-0">
-                <li class="nav-header"><a href="index.html">Home</a></li>
-                <li class="nav-header"><a href="https://github.com/LokiiiGo/programacao-blog">Sobre</a></li>
-                <li class="nav-header"><a href="mailto:lucascalle880@gmail.com">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="flex min-h-screen flex-col bg-gray-100 text-gray-900">
+  <header class="sticky top-0 z-10 bg-[#121212]"></header>
 
-    <main class="container mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg max-w-3xl">
-        <div id="post-detalhe">
-            <h1 id="titulo-post" class="text-3xl font-bold mb-4">Carregando...</h1>
-            <img id="imagem-post" class="w-full h-auto mb-6 hidden rounded">
-            <div id="conteudo-post" class="text-lg leading-relaxed text-black">
-                Escolha um tópico na página principal.
-            </div>
-        </div>
-    </main>
+  <main class="mx-auto w-full max-w-3xl flex-1 px-4 py-8 sm:py-10">
+    <a
+      href="index.html"
+      class="inline-flex items-center gap-1 text-sm font-medium text-gray-500 transition hover:text-amber-600"
+    >
+      <span aria-hidden="true">&larr;</span> Voltar para a lista
+    </a>
 
-    <footer>
-    </footer>
-    <script>
-        document.querySelector('footer').innerHTML = `&copy; ${new Date().getFullYear()} - Blog de Programação.`;
-    </script>
+    <article class="mt-4 rounded-xl bg-white p-5 shadow-sm sm:p-8">
+      <h1 id="post-titulo" class="text-2xl font-bold text-gray-900 sm:text-3xl"></h1>
+      <img id="imagem-conteudo" class="mt-4 rounded-lg shadow-md" src="" alt="" style="display: none;">
+      <div id="post-conteudo" class="mt-3"></div>
+    </article>
+  </main>
 
-    <script src="js/conteudo.js"></script>
+  <footer class="bg-[#121212]"></footer>
+
+  <script src="js/posts-data.js"></script>
+  <script src="js/cabecalho.js"></script>
+  <script src="js/rodape.js"></script>
+  <script src="js/post.js"></script>
 </body>
 
 </html>

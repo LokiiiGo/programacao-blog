@@ -39,31 +39,30 @@ A aplicação é **100% front-end**, operando com páginas HTML e carregamento d
 - **Google Fonts (Open Sans)**: fonte utilizada
 
 ### 6. Estrutura do projeto
-- `index.html`
-  - Lista de posts e link para a página de detalhes
-  - Inclui `js/titulo-conteudo.js` (responsável por renderizar a lista)
-- `index-1.html`
-  - Exibe o conteúdo do tópico selecionado
-  - Inclui `js/conteudo.js` (dados + lógica de renderização do detalhe)
-- `css/`
-  - `pagina-inicial.css` (estilos gerais da home)
-  - `conteudo.css` (estilos do layout da página de detalhes)
+- `index.html` (Home)
+  - Exibe a lista de posts no elemento `#lista-posts`.
+  - Carrega os scripts que montam a lista e o layout (header/footer).
+- `index-1.html` (Detalhes)
+  - Exibe o conteúdo de um post específico (título, conteúdo e imagem).
+  - Lê o parâmetro `topico` na URL e renderiza o post correspondente.
 - `js/`
-  - `titulo-conteudo.js` (gera os links/itens da lista)
-  - `conteudo.js` (mantém os conteúdos e imagens por tópico)
+  - `posts-data.js`: array com os posts (ID, título, conteúdo e imagem).
+  - `lista-posts.js`: renderiza a lista de tópicos na Home.
+  - `post.js`: lógica da página de detalhes (busca por `topico` e preenche `#post-titulo`, `#post-conteudo` e `#imagem-conteudo`).
+  - `cabecalho.js` e `rodape.js`: constroem o header/footer (com ano automático, conforme implementado).
+  - `titulo-conteudo.js`: auxilia/organiza a geração da lista (conforme seu projeto).
 - `images/`
-  - imagens de capa/ilustração por tópico
+  - Imagens usadas como capa/ilustração dos posts.
+
+> Observação: este projeto é front-end puro; o navegador executa os scripts diretamente (sem build/compilação).
 
 ### 7. Como executar (rodar localmente)
-Como o projeto é front-end puro, você pode executá-lo de forma simples:
 
 1. Abra o arquivo **`index.html`** no navegador.
    - Alternativa: usar qualquer servidor estático local (ex.: Live Server do VSCode).
 2. A partir da home, selecione um tópico.
 3. O navegador irá redirecionar para `index-1.html?topico=...` e carregar o conteúdo.
 
-> Comando rápido (PowerShell/Prompt no diretório do projeto):
-> - Abra o `index.html` diretamente.
 > - Exemplo via VSCode: botão **Go Live** (Live Server), depois acesse a URL gerada.
 
 > Observação: abrir via navegador normalmente funciona por se tratar de arquivos estáticos. Se houver bloqueios por CORS/recursos em algum ambiente, use um servidor estático (ex.: extensão Live Server do VSCode).

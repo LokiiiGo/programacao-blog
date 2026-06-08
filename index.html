@@ -2,45 +2,45 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Programação</title>
-    <link rel="icon" type="image/icon" href="images/blog.png">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/pagina-inicial.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog de Programacao</title>
+  <meta name="description" content="Blog de Programacao com conteudos sobre HTML, CSS, JavaScript, Python, Java e muito mais." />
+  <link rel="icon" type="image/png" href="images/blog.png" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body { font-family: "Open Sans", sans-serif; }
+  </style>
 </head>
 
-<body class="open-sans">
-    <header>
-        <nav>
-            <ul class="flex justify-center m-0">
-                <li class="nav-header"><a href="index.html">Home</a></li>
-                <li class="nav-header"><a href="https://github.com/LokiiiGo/programacao-blog">Sobre</a></li>
-                <li class="nav-header"><a href="mailto:lucascalle880@gmail.com">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="flex min-h-screen flex-col bg-gray-100 text-gray-900">
+  <header class="sticky top-0 z-10 bg-[#121212]"></header>
 
-    <main class="container-blog text-center">
-        <h1 class="titulo-principal">Blog de Programação</h1>
-        <p class="autor">Autor: Lucas Bruno Calle Chambi</p>
+  <main class="mx-auto w-full max-w-4xl flex-1 px-4 py-8 sm:py-10">
+    <div class="rounded-xl bg-white p-5 shadow-sm sm:p-8">
+      <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">Blog de Programação</h1>
+      <p class="mt-1 text-sm italic text-gray-500">Autor: Lucas Bruno Calle Chambi</p>
 
-        <section class="lista-posts" id="lista-posts">
-            <a href="index-1.html" id="conteudo"></a>
-        </section>
-    </main>
+      <section
+        id="lista-posts"
+        class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3"
+        aria-label="Lista de conteudos"
+      ></section>
+    </div>
+  </main>
 
-    <footer>
-    </footer>
-    
-    <script>
-        document.querySelector('footer').innerHTML = `&copy; ${new Date().getFullYear()} - Blog de Programação.`;
-    </script>
-    <script src="./js/titulo-conteudo.js"></script>
+  <footer class="bg-[#121212]"></footer>
+
+  <script src="js/posts-data.js"></script>
+  <script src="js/cabecalho.js"></script>
+  <script src="js/rodape.js"></script>
+  <script src="js/lista-posts.js"></script>
 </body>
 
 </html>
