@@ -16,7 +16,7 @@ if (post) {
   document.title = `${post.titulo} - Blog de Programação`;
   tituloEl.textContent = post.titulo;
   conteudoEl.innerHTML = `
-    <p class="text-lg font-medium text-amber-600">${post.resumo}</p>
+    <p class="text-lg font-medium text-sky-600">${post.resumo}</p>
     <img class="mt-4 rounded-lg shadow-md" src="${post.image}" alt="${post.titulo}">
     <p class="mt-4 text-base leading-relaxed text-gray-700">${post.conteudo}</p>
   `;
