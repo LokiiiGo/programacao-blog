@@ -333,7 +333,7 @@ const posts = [
     },
     {
         id: "framework",
-        titulo: "O que e Framework?",
+        titulo: "Framework",
         resumo: "Entenda o conceito",
         image: "./images/framework.png",
         conteudo:
