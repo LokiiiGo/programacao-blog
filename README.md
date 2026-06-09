@@ -67,7 +67,6 @@ A aplicação é **100% front-end**, operando com páginas HTML e carregamento d
 
 > Observação: abrir via navegador normalmente funciona por se tratar de arquivos estáticos. Se houver bloqueios por CORS/recursos em algum ambiente, use um servidor estático (ex.: extensão Live Server do VSCode).
 
-
 ### 8. Como a navegação funciona (técnico)
 - Na home (`index.html`), o script cria links do tipo:
   - `index-1.html?topico=<id>`
