@@ -1,5 +1,5 @@
-// Dados compartilhados dos posts do blog.
-// Cada post tem um id (usado na URL), titulo, resumo e conteudo completo.
+// posts do blog. (datas compartilhados)
+// Cada post tem um id (usado na URL), titulo, resumo e conteúdo completo.
 const posts = [
     {
         id: "html",
@@ -111,7 +111,7 @@ const posts = [
         <br><br>
         - Desenvolvimento de jogos.
         <br><br>
-        - Desenvlvimento de microdados.
+        - Desenvolvimento de microdados.
         <br><br>
         - Desenvolvimento de aplicações distribuidas e com base na Cloud.
         <br><br>
@@ -320,7 +320,7 @@ const posts = [
         <br><br>
         - É compatível com Windows, Linux e MAC.
         <br><br>
-        - Suporta várias linguagens como JavaScript, PHP, C, C++, JAVA, TypeScript, Python, etc.
+        - Suporta várias linguagens como JavaScript, PHP, C, C++, Java, TypeScript, Python, etc.
         <br><br>
         - É personalizável, permitindo alterar a aparência, teclas de atalho e preferências.
         <br><br>

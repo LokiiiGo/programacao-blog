@@ -1,4 +1,4 @@
-// Cabecalho/navegação compartilhado com menu responsivo (hamburger no mobile).
+// navegação compartilhado com menu responsivo (hamburger no mobile).
 const headerEl = document.querySelector("header");
 
 if (headerEl) {

@@ -1,5 +1,5 @@
-// Le o identificador do topico a partir do hash da URL (ex: post.html#tailwind)
-// e exibe o conteudo do post correspondente.
+// Lê o identificador do tópico a partir do hash da URL (ex: post.html#tailwind)
+// e exibe o conteúdo do post correspondente.
 const topico = window.location.hash.replace("#", "");
 
 const post = posts.find((p) => p.id === topico);

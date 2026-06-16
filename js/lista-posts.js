@@ -1,4 +1,4 @@
-// Renderiza a lista de posts na pagina inicial.
+// Renderiza a lista de posts na página inicial.
 const container = document.getElementById("lista-posts");
 
 if (container) {
