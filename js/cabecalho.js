@@ -5,7 +5,7 @@ if (headerEl) {
   headerEl.innerHTML = `
     <nav class="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
       <a href="index.html" class="text-lg font-bold uppercase tracking-wide text-white">
-        &lt;Blog/&gt;
+        <img src="./images/blog.png" alt="ícone de blog de programação" class="h-10 w-10"/>
       </a>
 
       <!-- Botão hamburger (somente mobile) -->
@@ -46,7 +46,7 @@ if (headerEl) {
   toggle.addEventListener("click", () => {
     const isOpen = menu.classList.toggle("hidden") === false;
     toggle.setAttribute("aria-expanded", String(isOpen));
-    // Mantem o layout em coluna no mobile quando aberto.
+    // Mantém o layout em coluna no mobile quando aberto.
     menu.classList.toggle("flex", isOpen);
   });
 }

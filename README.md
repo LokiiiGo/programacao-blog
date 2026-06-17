@@ -1,9 +1,9 @@
 ## Blog de Programação
 
 ### 1. Visão geral
-Este projeto foi desenvolvido como um **blog educativo** com foco em iniciantes, reunindo conteúdos introdutórios de programação em um formato simples de navegar.
+Este projeto foi desenvolvido como um blog educativo com foco em iniciantes, reunindo conteúdos introdutórios de programação em um formato simples de navegar.
 
-A aplicação é **100% front-end**, operando com páginas HTML e carregamento de conteúdo via JavaScript, sem necessidade de back-end.
+A aplicação é 100% front-end, operando com páginas HTML e carregamento de conteúdo via JavaScript, sem necessidade de back-end.
 
 ### 2. Objetivo
 - Facilitar o aprendizado de conceitos fundamentais (ex.: HTML, CSS, JavaScript e lógica de programação).
