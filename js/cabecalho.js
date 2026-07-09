@@ -8,7 +8,7 @@ if (headerEl) {
         <img src="./images/blog.png" alt="ícone de blog de programação" class="h-10 w-10"/>
       </a>
 
-      <!-- Botão hamburger (somente mobile) -->
+      <!-- Botão list (somente mobile) -->
       <button
         id="menu-toggle"
         type="button"
