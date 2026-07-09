@@ -5,7 +5,7 @@ if (headerEl) {
   headerEl.innerHTML = `
     <nav class="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
       <a href="index.html" class="text-lg font-bold uppercase tracking-wide text-white">
-        <img src="./images/blog.png" alt="ícone de blog de programação" class="h-10 w-10"/>
+        <img src="./images/blog.png" alt="ícone de blog de programação" class="sm:h-10 w-10"/>
       </a>
 
       <!-- Botão list (somente mobile) -->
