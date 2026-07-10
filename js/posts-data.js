@@ -169,7 +169,7 @@ const posts = [
         id: "php",
         titulo: "PHP",
         resumo: "Desenvolvimento web ao lado do servidor",
-        image: "./images/php.png",
+        image: "./images/php.png", 
         conteudo:
             `PHP é uma linguagem de script do lado do servidor, o que significa que o código PHP é executado no servidor web antes que a página seja enviada para o navegador do usuário.
         Isso permite que o PHP gere conteúdo dinâmico, interaja com bancos de dados e processe informações antes de exibir a página no navegador.
