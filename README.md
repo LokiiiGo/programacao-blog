@@ -36,7 +36,7 @@ A aplicação é 100% front-end, operando com páginas HTML e carregamento de co
   - renderização da lista de tópicos
   - carregamento do conteúdo baseado no parâmetro `topico`
 - **Tailwind CSS (via CDN)**: apoio a estilos utilitários
-- **Google Fonts (Open Sans)**: fonte utilizada
+- **Google Fonts (Google Sans)**: fonte utilizada
 
 ### 6. Estrutura do projeto
 - `index.html` (Home)
@@ -81,7 +81,7 @@ A aplicação é 100% front-end, operando com páginas HTML e carregamento de co
 
 ### 9. Dependências externas
 - **Tailwind CSS** via CDN: `https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4`
-- **Google Fonts** para Open Sans
+- **Google Fonts** para Google Sans
 - Imagens locais em `images/`
 
 ### 10. Observações e próximos passos
