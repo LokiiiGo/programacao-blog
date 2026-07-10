@@ -3,7 +3,7 @@
 const posts = [
     {
         id: "html",
-        titulo: "HTML",
+        titulo: "HyperText Markup Language - HTML",
         resumo: "A estrutura esqueleto de um website",
         image: "./images/html.png",
         conteudo:
@@ -17,7 +17,7 @@ const posts = [
     },
     {
         id: "css",
-        titulo: "CSS",
+        titulo: "Cascading StyleSheets - CSS",
         resumo: "A estilização de um website",
         image: "./images/css.jpg",
         conteudo:
@@ -42,7 +42,7 @@ const posts = [
     },
     {
         id: "js",
-        titulo: "JavaScript",
+        titulo: "JavaScript - JS",
         resumo: "A interatividade no website",
         image: "./images/js.png",
         conteudo:
@@ -78,8 +78,8 @@ const posts = [
     },
     {
         id: "python",
-        titulo: "Python",
-        resumo: "Programação orientada a objetos",
+        titulo: "Python - POO",
+        resumo: "Programação Orientada a Objetos",
         image: "./images/python.png",
         conteudo:
             `A Programação Orientada a Objetos (POO) em Python é um paradigma de programação que organiza o código em objetos, que são instâncias de classes. As classes definem as características
@@ -87,7 +87,7 @@ const posts = [
     },
     {
         id: "java",
-        titulo: "Java",
+        titulo: "Java - POO",
         resumo: "A linguagem mais usada no mundo",
         image: "./images/java.png",
         conteudo:
@@ -152,7 +152,7 @@ const posts = [
     },
     {
         id: "xampp",
-        titulo: "Xampp",
+        titulo: "XAMPP",
         resumo: "Software do Apache Friends",
         image: "./images/xampp.png",
         conteudo:
@@ -167,7 +167,7 @@ const posts = [
     },
     {
         id: "php",
-        titulo: "PHP",
+        titulo: "PHP - Personal Home Page",
         resumo: "Desenvolvimento web ao lado do servidor",
         image: "./images/php-codigo.png", 
         conteudo:
@@ -221,7 +221,7 @@ const posts = [
     },
     {
         id: "arduino",
-        titulo: "Arduino",
+        titulo: "Arduino - C++",
         resumo: "Construindo Hardware",
         image: "./images/arduino.png",
         conteudo:
